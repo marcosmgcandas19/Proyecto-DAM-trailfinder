@@ -1,0 +1,4 @@
+1. Crear todas las pantallas y comprobar que se navega bien
+2. SUbir imagener , archivos y crear usuarios
+3. Desarrollar la API con SpringBoot
+4. Desarrollar la BBDD

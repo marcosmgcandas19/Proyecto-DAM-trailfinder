@@ -1,0 +1,6 @@
+Para iniciar la interfaz:
+	cd frontend  ||  npm run dev 
+	http://localhost:5173/
+
+Para lanzar el backend:
+	cd backend  ||  mvnw spring-boot:run
