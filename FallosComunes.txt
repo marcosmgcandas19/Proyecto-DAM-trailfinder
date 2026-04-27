@@ -1,0 +1,8 @@
+Puertos ocupados: 
+
+	1.Ejecutar el comando para ver que procesos usan ese puerto:
+		netstat -ano | findstr :8080
+		powershell -Command "Get-Process -Id 852 | Select-Object Name, Id, Path"
+
+	2.Matar el procesos que corre en ese puerto:
+		powershell Stop-Process -Id (Get-NetTCPConnection -LocalPort 8080).OwningProcess -Force
